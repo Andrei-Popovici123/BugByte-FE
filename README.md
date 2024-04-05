@@ -1,2 +1,0 @@
-# BugByte-FE
-en
