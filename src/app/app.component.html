@@ -8,18 +8,11 @@
 </head>
 <body style="margin: 0">
 
-  <div class="content">
+  <app-head></app-head>
+  <div class="component-container">
 
-    <div class="header">
-      <app-head></app-head>
-    </div>
-
-    <div class="mid">
-      <app-side></app-side>
-    </div>
-
+    <router-outlet></router-outlet>
   </div>
-
 
 </body>
 </html>
